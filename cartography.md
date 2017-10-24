@@ -4,7 +4,7 @@ Following Bostock tutorial: https://medium.com/@mbostock/command-line-cartograph
 
 `geoproject 'd3.geoAlbersUsa()' < states.json > states-albers.json`
 
-Then
+Then:
 
 `geo2svg -w 960 -h 960 < ca-albers.json > ca-albers.svg`
 

@@ -1,25 +1,15 @@
-/* Vue JS */
-var app = new Vue({
-  el: '#vue',
-  data: {
-    message: 'VueJS working.'
-  }
-})
-
-
 /* Leaflet */
-var mymap = L.map('map1').setView([37.8, -96], 4);
+var statesmap = L.map('map1').setView([37.8, -96], 4);
+var mapboxAccessToken = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    maxZoom: 18,
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + mapboxAccessToken, {
     id: 'mapbox.light',
-    accessToken: 'pk.eyJ1IjoiY29yaW50eHQiLCJhIjoiY2o5NXlkaGhkNG1rejMzbzRrN2JwcGZ3ZiJ9.4DnwEct8ZG9s5ERf_uG1Mw'
-}).addTo(mymap);
+    attribution: ''
+}).addTo(statesmap);
 
 //Add states data
-L.geoJson(statesData).addTo(mymap);
-
+L.geoJson(statesData).addTo(statesmap);
+//
 //Define colours according to feature values
 function getColor(d) {
     return d > 9 ? '#49006a' :
@@ -43,7 +33,7 @@ function style(feature) {
         fillOpacity: 0.5
     };
 }
-L.geoJson(statesData, {style: style}).addTo(mymap);
+L.geoJson(statesData, {style: style}).addTo(statesmap);
 
 //Define a mouseover highlight listener
 function highlightFeature(e) {
@@ -82,4 +72,4 @@ function zoomToFeature(e) {
 geojson = L.geoJson(statesData, {
     style: style,
     onEachFeature: onEachFeature
-}).addTo(mymap);
+}).addTo(statesmap);
