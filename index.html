@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>State Map</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="src/css/normalize.css">
+  <link rel="stylesheet" href="src/css/skeleton.css">
+  <link rel="stylesheet" href="src/css/leaflet.css">
+  <link rel="stylesheet" href="src/css/main.css">
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="./src/js/vue.js"></script>
+  <script src="./src/js/leaflet.js"></script>
+    <script src="./src/js/us-states.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="src/assets/favicon.png">
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row"  style="margin-top: 10%">
+      <div class="one-half column" id="vue">{{ message }}</div>
+      <div class="one-half column u-pull-right">
+        <h1>Automation Map</h1>
+        <h2>A Lab12 Project</h2>
+      </div>
+    </div>
+    <hr>
+    <div class="row" style="margin-top: 5%">
+          <div><h3>Unemployment Percentage By State</h3></div>
+    </div>
+
+    <div class="row">
+      <div id="map1"></div>
+    </div>
+
+  </div>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="src/js/app.js"></script>
+</body>
+</html>
