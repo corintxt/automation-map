@@ -7,15 +7,16 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token='
     attribution: ''
 }).addTo(statesmap);
 
-//Add quotients to statesData
-for (var i=0; i< statesData.features.length; i++){
-    statesData.features[i].properties.quotient = quotients[i].manufact_locq
+//Add quotients for all industry to the state feature property
+function addIndustriesToFeature(feature, data) {
+    for (var i=0; i<data.length; i++) {
+        feature.properties[data[i].naics_title] = data[i];
+    }
 }
-
-//New function -> match by state name, add new properties for industry quotient
-// statesData.features.forEach(function(feature){
-    
-// })
+statesData.features.forEach(function(feature){
+    addIndustriesToFeature(feature, allQuotients[feature.properties.name]);
+}) 
+console.log(statesData);
 
 //Add states data
 L.geoJson(statesData).addTo(statesmap);
@@ -33,10 +34,12 @@ function getColor(d) {
                       '#fde0dd';
 }
 
+var industryName = 'Educational Services';
+
 //Add feature styling to map
 function style(feature) {
     return {
-        fillColor: getColor(feature.properties.quotient),
+        fillColor: getColor(feature.properties[industryName].locq),
         weight: 1,
         opacity: 1,
         color: 'white',
@@ -48,8 +51,9 @@ L.geoJson(statesData, {style: style}).addTo(statesmap);
 
 //Define a mouseover highlight listener
 function highlightFeature(e) {
+    console.log("highlight")
     var layer = e.target;
-
+   //todo vm.data.selected = e.target
     layer.setStyle({
         weight: 3,
         color: '#3388ff',
@@ -100,7 +104,7 @@ info.onAdd = function (map) {
 
 info.update = function (props) {
     this._div.innerHTML = '<h4>Automation Quotient By State</h4>' +  (props ?
-        '<b>' + props.name + '</b><br />' + 'Quotient: ' + props.quotient.toFixed(4)
+        '<b>' + props.name + '</b><br />' + 'Quotient: ' + props[industryName].locq.toFixed(4)
         : 'Hover over a state');
 };
 

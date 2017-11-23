@@ -28,8 +28,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="./src/js/vue.js"></script>
   <script src="./src/js/leaflet.js"></script>
-  <script src="./src/data/states-quotient.js"></script>
+  <script src="./src/data/states-data.js"></script>
   <script src="./src/data/quotient-info.js"></script>
+  <script src="./src/data/all-quotient-info.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -51,7 +52,7 @@
     <hr> <!-- end header -->
 
     <div class="row" style="margin-top: 5%">
-          <div><h3>Automation Quotient By State: Manufacturing</h3></div>
+          <div><h3>Automation Quotient By State: {{ industry }}</h3></div>
     </div>
     <div class="row">
       <div id="map1"></div>
@@ -67,8 +68,9 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+   
   <script src="src/js/vue-code.js"></script>
   <script src="src/js/app.js"></script>
+  
 </body>
 </html>
