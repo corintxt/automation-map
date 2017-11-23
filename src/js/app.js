@@ -15,6 +15,7 @@ for (var i=0; i< statesData.features.length; i++){
 //Add states data
 L.geoJson(statesData).addTo(statesmap);
 //
+
 //Define colours according to feature values
 function getColor(d) {
     return d > 1.75 ? '#49006a' :
@@ -54,10 +55,14 @@ function highlightFeature(e) {
     if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
         layer.bringToFront();
     }
+
+    info.update(layer.feature.properties);
+
 }
 //Define highlight reset
 function resetHighlight(e) {
     geojson.resetStyle(e.target);
+    info.update()
 }
 
 //Add event listeners for interactivity
@@ -78,6 +83,23 @@ geojson = L.geoJson(statesData, {
     style: style,
     onEachFeature: onEachFeature
 }).addTo(statesmap);
+
+//Add info display panel
+var info = L.control();
+
+info.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+info.update = function (props) {
+    this._div.innerHTML = '<h4>Automation Quotient By State</h4>' +  (props ?
+        '<b>' + props.name + '</b><br />' + 'Quotient: ' + props.quotient.toFixed(4)
+        : 'Hover over a state');
+};
+
+info.addTo(statesmap);
 
 //Add legend
 var legend = L.control({position: 'bottomright'});
