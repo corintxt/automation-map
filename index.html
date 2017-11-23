@@ -28,7 +28,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="./src/js/vue.js"></script>
   <script src="./src/js/leaflet.js"></script>
-    <script src="./src/js/us-states.js"></script>
+  <script src="./src/js/states-quotient.js"></script>
+  <script src="./src/js/quotient-info.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -50,24 +51,24 @@
     <hr> <!-- end header -->
 
     <div class="row" style="margin-top: 5%">
-          <div><h3>Unemployment Percentage By State</h3></div>
+          <div><h3>Automation Quotient By State: Manufacturing</h3></div>
     </div>
     <div class="row">
       <div id="map1"></div>
     </div>
     <div class="row">
       <div id="unemployment-content">
-        {{ par }}
+        <p>{{ par1 }}</p>
+        <p>{{par2}} </p>
       </div>
     </div>
 
   </div>
 
-
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <script src="src/js/map-code.js"></script>
   <script src="src/js/vue-code.js"></script>
+  <script src="src/js/app.js"></script>
 </body>
 </html>
