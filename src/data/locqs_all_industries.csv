@@ -1,0 +1,811 @@
+id,area_title,naics_title,tot_emp,locq,quintiles
+0,Alabama,Accommodation and Food Services,178080,0.9798297888,2
+0,Alabama,"Agriculture, Forestry, Fishing and Hunting",5780,1.0182703649,4
+0,Alabama,"Arts, Entertainment, and Recreation",21510,0.679763622,0
+0,Alabama,Construction,84100,0.9229847501,1
+0,Alabama,Educational Services,163160,0.9223509128,0
+0,Alabama,Finance and Insurance,70970,0.9019018965,2
+0,Alabama,Health Care and Social Assistance,248910,0.9486100551,1
+0,Alabama,Information,21150,0.5619880461,0
+0,Alabama,Management of Companies and Enterprises,17950,0.5721400774,0
+0,Alabama,Manufacturing,260510,1.5497122318,4
+0,Alabama,"Mining, Quarrying, and Oil and Gas Extraction",5570,0.6297643121,3
+0,Alabama,Retail Trade,236250,1.0848784747,3
+0,Alabama,Transportation and Warehousing,68490,0.8966328791,2
+0,Alabama,Utilities,12900,1.7215242263,4
+0,Alabama,Wholesale Trade,73670,0.9257166415,2
+1,Alaska,Accommodation and Food Services,29280,0.9526754613,2
+1,Alaska,"Agriculture, Forestry, Fishing and Hunting",320,0.3333678078,1
+1,Alaska,"Arts, Entertainment, and Recreation",4800,0.8970097448,2
+1,Alaska,Construction,16530,1.0727778504,3
+1,Alaska,Educational Services,32400,1.0830934021,3
+1,Alaska,Finance and Insurance,7000,0.5260426413,0
+1,Alaska,Health Care and Social Assistance,46190,1.0409545217,3
+1,Alaska,Information,6280,0.9867673353,3
+1,Alaska,Management of Companies and Enterprises,3060,0.5767634869,0
+1,Alaska,Manufacturing,9680,0.3405182824,0
+1,Alaska,"Mining, Quarrying, and Oil and Gas Extraction",15330,10.2495174826,4
+1,Alaska,Retail Trade,37760,1.0253678013,2
+1,Alaska,Transportation and Warehousing,21100,1.6334594738,4
+1,Alaska,Utilities,2150,1.6966814167,4
+1,Alaska,Wholesale Trade,6480,0.4815050229,0
+2,Arizona,Accommodation and Food Services,267240,1.0602640634,3
+2,Arizona,"Agriculture, Forestry, Fishing and Hunting",12290,1.561220466,4
+2,Arizona,"Arts, Entertainment, and Recreation",51250,1.1678537657,4
+2,Arizona,Construction,131560,1.0411168643,3
+2,Arizona,Educational Services,234700,0.956693144,1
+2,Arizona,Finance and Insurance,145090,1.3295328198,4
+2,Arizona,Health Care and Social Assistance,350350,0.962774519,1
+2,Arizona,Information,43930,0.8416954825,2
+2,Arizona,Management of Companies and Enterprises,30920,0.7106479205,1
+2,Arizona,Manufacturing,158790,0.6811251202,1
+2,Arizona,"Mining, Quarrying, and Oil and Gas Extraction",11680,0.9522320187,3
+2,Arizona,Retail Trade,328950,1.0892216191,3
+2,Arizona,Transportation and Warehousing,90500,0.8543054167,1
+2,Arizona,Utilities,12320,1.1855263823,3
+2,Arizona,Wholesale Trade,93790,0.8498084084,1
+3,Arkansas,Accommodation and Food Services,104390,0.9223136929,1
+3,Arkansas,"Agriculture, Forestry, Fishing and Hunting",4440,1.2560372033,4
+3,Arkansas,"Arts, Entertainment, and Recreation",11170,0.5668327688,0
+3,Arkansas,Construction,50710,0.8936684116,1
+3,Arkansas,Educational Services,107280,0.9738353091,1
+3,Arkansas,Finance and Insurance,36090,0.7364709892,1
+3,Arkansas,Health Care and Social Assistance,178980,1.0953026785,3
+3,Arkansas,Information,12160,0.5188413111,0
+3,Arkansas,Management of Companies and Enterprises,34500,1.7657990529,4
+3,Arkansas,Manufacturing,154880,1.4794703604,4
+3,Arkansas,"Mining, Quarrying, and Oil and Gas Extraction",4730,0.8587529829,3
+3,Arkansas,Retail Trade,144330,1.0642659161,3
+3,Arkansas,Transportation and Warehousing,61250,1.2875907676,4
+3,Arkansas,Utilities,7840,1.6800560005,4
+3,Arkansas,Wholesale Trade,46440,0.9370524041,2
+4,California,Accommodation and Food Services,1599720,1.0545817823,3
+4,California,"Agriculture, Forestry, Fishing and Hunting",224860,4.7462244352,4
+4,California,"Arts, Entertainment, and Recreation",317520,1.2022350721,4
+4,California,Construction,765130,1.0060847329,2
+4,California,Educational Services,1447690,0.9805254223,2
+4,California,Finance and Insurance,534530,0.8138743809,1
+4,California,Health Care and Social Assistance,1851100,0.845232248,0
+4,California,Information,511330,1.627866472,4
+4,California,Management of Companies and Enterprises,231200,0.8829305535,2
+4,California,Manufacturing,1300000,0.9265541654,2
+4,California,"Mining, Quarrying, and Oil and Gas Extraction",23350,0.3163082608,2
+4,California,Retail Trade,1690150,0.9298980208,0
+4,California,Transportation and Warehousing,581410,0.9119495001,2
+4,California,Utilities,58680,0.9382408377,2
+4,California,Wholesale Trade,714600,1.07584873,4
+5,Colorado,Accommodation and Food Services,261290,1.0967278304,3
+5,Colorado,"Agriculture, Forestry, Fishing and Hunting",2910,0.3910829105,2
+5,Colorado,"Arts, Entertainment, and Recreation",48420,1.1673010537,4
+5,Colorado,Construction,153350,1.2838754474,4
+5,Colorado,Educational Services,220400,0.9504617828,1
+5,Colorado,Finance and Insurance,107710,1.044193786,3
+5,Colorado,Health Care and Social Assistance,309440,0.8996268627,1
+5,Colorado,Information,67700,1.372290189,4
+5,Colorado,Management of Companies and Enterprises,42570,1.035099625,3
+5,Colorado,Manufacturing,141310,0.6412688465,1
+5,Colorado,"Mining, Quarrying, and Oil and Gas Extraction",25300,2.1821467599,3
+5,Colorado,Retail Trade,269610,0.944464971,0
+5,Colorado,Transportation and Warehousing,81230,0.8112309861,0
+5,Colorado,Utilities,7370,0.7502940456,1
+5,Colorado,Wholesale Trade,104360,1.0003732155,3
+6,Connecticut,Accommodation and Food Services,127140,0.8031236538,0
+6,Connecticut,"Agriculture, Forestry, Fishing and Hunting",320,0.0647217069,0
+6,Connecticut,"Arts, Entertainment, and Recreation",39310,1.4262158905,4
+6,Connecticut,Construction,60760,0.7655631366,0
+6,Connecticut,Educational Services,180430,1.1709974586,4
+6,Connecticut,Finance and Insurance,107760,1.572196394,4
+6,Connecticut,Health Care and Social Assistance,267020,1.1682986874,4
+6,Connecticut,Information,32730,0.9984525482,4
+6,Connecticut,Management of Companies and Enterprises,33150,1.2130708546,3
+6,Connecticut,Manufacturing,156430,1.0683447632,2
+6,Connecticut,"Mining, Quarrying, and Oil and Gas Extraction",590,0.0765842707,0
+6,Connecticut,Retail Trade,188050,0.9913963853,1
+6,Connecticut,Transportation and Warehousing,54960,0.8260359263,0
+6,Connecticut,Utilities,5650,0.8656385611,1
+6,Connecticut,Wholesale Trade,62460,0.9010608059,2
+7,Delaware,Accommodation and Food Services,39260,0.9375540462,1
+7,Delaware,"Agriculture, Forestry, Fishing and Hunting",,,
+7,Delaware,"Arts, Entertainment, and Recreation",10100,1.3853177795,4
+7,Delaware,Construction,20770,0.9893399619,2
+7,Delaware,Educational Services,35990,0.8830287776,0
+7,Delaware,Finance and Insurance,41560,2.2922952751,4
+7,Delaware,Health Care and Social Assistance,68110,1.1265923157,4
+7,Delaware,Information,4510,0.520120263,0
+7,Delaware,Management of Companies and Enterprises,9550,1.321149043,4
+7,Delaware,Manufacturing,25570,0.6601884399,1
+7,Delaware,"Mining, Quarrying, and Oil and Gas Extraction",,,
+7,Delaware,Retail Trade,54640,1.0890065483,3
+7,Delaware,Transportation and Warehousing,17160,0.9750239933,2
+7,Delaware,Utilities,1660,0.9614839564,2
+7,Delaware,Wholesale Trade,11830,0.645182637,0
+8,District of Columbia,Accommodation and Food Services,66030,0.9895035397,2
+8,District of Columbia,"Agriculture, Forestry, Fishing and Hunting",,,
+8,District of Columbia,"Arts, Entertainment, and Recreation",8330,0.7169734494,0
+8,District of Columbia,Construction,15710,0.4695861484,0
+8,District of Columbia,Educational Services,57880,0.8911515581,0
+8,District of Columbia,Finance and Insurance,14330,0.4959880904,0
+8,District of Columbia,Health Care and Social Assistance,69010,0.7163049783,0
+8,District of Columbia,Information,16990,1.22956261,4
+8,District of Columbia,Management of Companies and Enterprises,2310,0.2005351284,0
+8,District of Columbia,Manufacturing,790,0.0127995387,0
+8,District of Columbia,"Mining, Quarrying, and Oil and Gas Extraction",,,
+8,District of Columbia,Retail Trade,23180,0.2899100494,0
+8,District of Columbia,Transportation and Warehousing,13200,0.4706542539,0
+8,District of Columbia,Utilities,1960,0.7123936881,0
+8,District of Columbia,Wholesale Trade,4920,0.1683809933,0
+9,Florida,Accommodation and Food Services,953060,1.2200830031,4
+9,Florida,"Agriculture, Forestry, Fishing and Hunting",20870,0.8554435536,3
+9,Florida,"Arts, Entertainment, and Recreation",226520,1.6655501142,4
+9,Florida,Construction,462560,1.1811369251,3
+9,Florida,Educational Services,625280,0.8224143237,0
+9,Florida,Finance and Insurance,360330,1.0654143926,3
+9,Florida,Health Care and Social Assistance,1117260,0.9906797188,2
+9,Florida,Information,137460,0.8498194927,2
+9,Florida,Management of Companies and Enterprises,99390,0.7370793613,1
+9,Florida,Manufacturing,352950,0.4885100367,0
+9,Florida,"Mining, Quarrying, and Oil and Gas Extraction",4160,0.1094333828,0
+9,Florida,Retail Trade,1107960,1.1837691003,4
+9,Florida,Transportation and Warehousing,292020,0.8894749739,1
+9,Florida,Utilities,22820,0.7085536038,0
+9,Florida,Wholesale Trade,338830,0.9906104378,3
+10,Georgia,Accommodation and Food Services,414190,1.0344536041,3
+10,Georgia,"Agriculture, Forestry, Fishing and Hunting",10150,0.8116657575,3
+10,Georgia,"Arts, Entertainment, and Recreation",48840,0.7005983017,0
+10,Georgia,Construction,172430,0.8589883503,1
+10,Georgia,Educational Services,382170,0.9806521698,2
+10,Georgia,Finance and Insurance,165310,0.9535852764,2
+10,Georgia,Health Care and Social Assistance,481610,0.8331377075,0
+10,Georgia,Information,110290,1.33023619,4
+10,Georgia,Management of Companies and Enterprises,78660,1.1380668562,3
+10,Georgia,Manufacturing,383890,1.0365956388,2
+10,Georgia,"Mining, Quarrying, and Oil and Gas Extraction",4920,0.2525014461,1
+10,Georgia,Retail Trade,494290,1.030307866,2
+10,Georgia,Transportation and Warehousing,209170,1.2429761811,4
+10,Georgia,Utilities,18830,1.1406428027,3
+10,Georgia,Wholesale Trade,216330,1.2339002934,4
+11,Hawaii,Accommodation and Food Services,104680,1.7430601499,4
+11,Hawaii,"Agriculture, Forestry, Fishing and Hunting",410,0.2185910072,1
+11,Hawaii,"Arts, Entertainment, and Recreation",11710,1.1199214745,3
+11,Hawaii,Construction,37390,1.2418443428,4
+11,Hawaii,Educational Services,58960,1.0086793466,2
+11,Hawaii,Finance and Insurance,15380,0.5914989782,0
+11,Hawaii,Health Care and Social Assistance,72830,0.8399798292,0
+11,Hawaii,Information,9270,0.7454347058,1
+11,Hawaii,Management of Companies and Enterprises,8570,0.826669487,2
+11,Hawaii,Manufacturing,14210,0.2558196547,0
+11,Hawaii,"Mining, Quarrying, and Oil and Gas Extraction",250,0.0855413358,0
+11,Hawaii,Retail Trade,71400,0.9922489667,1
+11,Hawaii,Transportation and Warehousing,29820,1.1814308346,3
+11,Hawaii,Utilities,3810,1.5387269932,4
+11,Hawaii,Wholesale Trade,17850,0.6787952428,0
+12,Idaho,Accommodation and Food Services,59840,0.9493041835,2
+12,Idaho,"Agriculture, Forestry, Fishing and Hunting",4950,2.5143097715,4
+12,Idaho,"Arts, Entertainment, and Recreation",9990,0.9102513156,2
+12,Idaho,Construction,38400,1.2150889523,3
+12,Idaho,Educational Services,60600,0.9877190444,2
+12,Idaho,Finance and Insurance,22310,0.8174522309,1
+12,Idaho,Health Care and Social Assistance,93660,1.0291480384,3
+12,Idaho,Information,8420,0.6450704026,0
+12,Idaho,Management of Companies and Enterprises,5450,0.5008558353,0
+12,Idaho,Manufacturing,63700,1.0925577764,3
+12,Idaho,"Mining, Quarrying, and Oil and Gas Extraction",2400,0.7823703994,3
+12,Idaho,Retail Trade,84860,1.1235453864,4
+12,Idaho,Transportation and Warehousing,22680,0.8560691808,1
+12,Idaho,Utilities,3060,1.1773976728,3
+12,Idaho,Wholesale Trade,28280,1.0245782315,3
+13,Illinois,Accommodation and Food Services,508330,0.9062767212,1
+13,Illinois,"Agriculture, Forestry, Fishing and Hunting",3070,0.1752480658,0
+13,Illinois,"Arts, Entertainment, and Recreation",85980,0.8804294104,1
+13,Illinois,Construction,222970,0.7929112056,0
+13,Illinois,Educational Services,556190,1.0187913602,2
+13,Illinois,Finance and Insurance,287200,1.1826289945,4
+13,Illinois,Health Care and Social Assistance,769210,0.9498825128,1
+13,Illinois,Information,98930,0.8517738585,2
+13,Illinois,Management of Companies and Enterprises,95360,0.984880983,2
+13,Illinois,Manufacturing,578960,1.1159758938,3
+13,Illinois,"Mining, Quarrying, and Oil and Gas Extraction",8410,0.3081047818,2
+13,Illinois,Retail Trade,627150,0.9331689798,0
+13,Illinois,Transportation and Warehousing,290500,1.2322908467,4
+13,Illinois,Utilities,24220,1.0473146031,2
+13,Illinois,Wholesale Trade,299350,1.2188387569,4
+14,Indiana,Accommodation and Food Services,266660,0.9383220084,1
+14,Indiana,"Agriculture, Forestry, Fishing and Hunting",1740,0.1960392583,1
+14,Indiana,"Arts, Entertainment, and Recreation",41280,0.8342874945,1
+14,Indiana,Construction,132970,0.933277369,2
+14,Indiana,Educational Services,260280,0.9409830913,1
+14,Indiana,Finance and Insurance,96210,0.781921664,1
+14,Indiana,Health Care and Social Assistance,413780,1.0084942132,2
+14,Indiana,Information,33290,0.5657037239,0
+14,Indiana,Management of Companies and Enterprises,34640,0.7061132113,1
+14,Indiana,Manufacturing,521720,1.9848271135,4
+14,Indiana,"Mining, Quarrying, and Oil and Gas Extraction",6210,0.4490275495,2
+14,Indiana,Retail Trade,335300,0.984694166,1
+14,Indiana,Transportation and Warehousing,139370,1.1668508055,3
+14,Indiana,Utilities,13930,1.1888664768,3
+14,Indiana,Wholesale Trade,118880,0.955332899,2
+15,Iowa,Accommodation and Food Services,123650,0.8479288202,0
+15,Iowa,"Agriculture, Forestry, Fishing and Hunting",3060,0.6718718986,3
+15,Iowa,"Arts, Entertainment, and Recreation",21130,0.8322365597,1
+15,Iowa,Construction,82670,1.130775139,3
+15,Iowa,Educational Services,155740,1.0972673076,4
+15,Iowa,Finance and Insurance,93180,1.4758322124,4
+15,Iowa,Health Care and Social Assistance,213120,1.0122770033,2
+15,Iowa,Information,22920,0.7590337793,2
+15,Iowa,Management of Companies and Enterprises,19120,0.7595486387,1
+15,Iowa,Manufacturing,214850,1.5929120745,4
+15,Iowa,"Mining, Quarrying, and Oil and Gas Extraction",2300,0.3241010747,2
+15,Iowa,Retail Trade,184490,1.0558735001,3
+15,Iowa,Transportation and Warehousing,69060,1.1267922526,3
+15,Iowa,Utilities,6530,1.0860914478,2
+15,Iowa,Wholesale Trade,67770,1.0613403391,4
+16,Kansas,Accommodation and Food Services,112770,0.8637700641,0
+16,Kansas,"Agriculture, Forestry, Fishing and Hunting",1350,0.3310839371,1
+16,Kansas,"Arts, Entertainment, and Recreation",17020,0.7487660436,1
+16,Kansas,Construction,62250,0.9510579096,2
+16,Kansas,Educational Services,144530,1.1373904155,4
+16,Kansas,Finance and Insurance,58560,1.0359877957,3
+16,Kansas,Health Care and Social Assistance,190040,1.008229678,2
+16,Kansas,Information,21100,0.780491608,2
+16,Kansas,Management of Companies and Enterprises,26050,1.155885249,3
+16,Kansas,Manufacturing,160900,1.3324526425,3
+16,Kansas,"Mining, Quarrying, and Oil and Gas Extraction",7290,1.1474121796,3
+16,Kansas,Retail Trade,153760,0.9829280342,1
+16,Kansas,Transportation and Warehousing,57450,1.0469998112,3
+16,Kansas,Utilities,6720,1.2484230478,3
+16,Kansas,Wholesale Trade,59410,1.0392404204,3
+17,Kentucky,Accommodation and Food Services,173070,0.9743380688,2
+17,Kentucky,"Agriculture, Forestry, Fishing and Hunting",3380,0.6092623655,3
+17,Kentucky,"Arts, Entertainment, and Recreation",22360,0.7230056548,0
+17,Kentucky,Construction,78220,0.8783522685,1
+17,Kentucky,Educational Services,175880,1.0173053492,2
+17,Kentucky,Finance and Insurance,73570,0.9566159922,2
+17,Kentucky,Health Care and Social Assistance,250580,0.9771116015,1
+17,Kentucky,Information,22740,0.6182434907,0
+17,Kentucky,Management of Companies and Enterprises,21450,0.69954813,1
+17,Kentucky,Manufacturing,246900,1.5027963719,4
+17,Kentucky,"Mining, Quarrying, and Oil and Gas Extraction",11370,1.3153329558,3
+17,Kentucky,Retail Trade,215200,1.0111228573,2
+17,Kentucky,Transportation and Warehousing,106790,1.4304427024,4
+17,Kentucky,Utilities,6650,0.9080242763,1
+17,Kentucky,Wholesale Trade,75130,0.9659467286,2
+18,Louisiana,Accommodation and Food Services,204220,1.1182905853,4
+18,Louisiana,"Agriculture, Forestry, Fishing and Hunting",4000,0.7013199004,3
+18,Louisiana,"Arts, Entertainment, and Recreation",34010,1.0696582518,3
+18,Louisiana,Construction,140730,1.5371141567,4
+18,Louisiana,Educational Services,171600,0.9654297415,1
+18,Louisiana,Finance and Insurance,56360,0.7128142684,1
+18,Louisiana,Health Care and Social Assistance,283090,1.0737194307,3
+18,Louisiana,Information,23740,0.6277956842,0
+18,Louisiana,Management of Companies and Enterprises,23050,0.7311891734,1
+18,Louisiana,Manufacturing,139420,0.8254155484,1
+18,Louisiana,"Mining, Quarrying, and Oil and Gas Extraction",38280,4.3074047738,4
+18,Louisiana,Retail Trade,237750,1.086552476,3
+18,Louisiana,Transportation and Warehousing,84590,1.1021162961,3
+18,Louisiana,Utilities,8470,1.124935815,3
+18,Louisiana,Wholesale Trade,71300,0.8916570261,2
+19,Maine,Accommodation and Food Services,53740,0.9484523149,1
+19,Maine,"Agriculture, Forestry, Fishing and Hunting",2110,1.1923398757,4
+19,Maine,"Arts, Entertainment, and Recreation",8050,0.8160104797,1
+19,Maine,Construction,28010,0.986038757,2
+19,Maine,Educational Services,60400,1.0952210212,3
+19,Maine,Finance and Insurance,22790,0.9289902738,2
+19,Maine,Health Care and Social Assistance,104120,1.2728050373,4
+19,Maine,Information,7850,0.6690656135,0
+19,Maine,Management of Companies and Enterprises,9980,1.020353846,3
+19,Maine,Manufacturing,51280,0.9784914283,2
+19,Maine,"Mining, Quarrying, and Oil and Gas Extraction",180,0.0652796328,0
+19,Maine,Retail Trade,82290,1.212100651,4
+19,Maine,Transportation and Warehousing,20410,0.8570631954,1
+19,Maine,Utilities,1640,0.7020202238,0
+19,Maine,Wholesale Trade,19850,0.8000741878,1
+20,Maryland,Accommodation and Food Services,227200,0.9055335844,1
+20,Maryland,"Agriculture, Forestry, Fishing and Hunting",1130,0.1442030522,0
+20,Maryland,"Arts, Entertainment, and Recreation",44340,1.0150184603,3
+20,Maryland,Construction,160520,1.2761109169,4
+20,Maryland,Educational Services,267880,1.0969416301,3
+20,Maryland,Finance and Insurance,94560,0.8704677823,2
+20,Maryland,Health Care and Social Assistance,363540,1.0035946213,2
+20,Maryland,Information,37370,0.7192842442,1
+20,Maryland,Management of Companies and Enterprises,25340,0.5850665532,1
+20,Maryland,Manufacturing,104730,0.4512929081,0
+20,Maryland,"Mining, Quarrying, and Oil and Gas Extraction",1220,0.0999179292,0
+20,Maryland,Retail Trade,294160,0.9784837898,1
+20,Maryland,Transportation and Warehousing,91200,0.8648545519,1
+20,Maryland,Utilities,9820,0.9492829037,2
+20,Maryland,Wholesale Trade,85950,0.7823372794,1
+21,Massachusetts,Accommodation and Food Services,299060,0.9097911723,1
+21,Massachusetts,"Agriculture, Forestry, Fishing and Hunting",640,0.0623394746,0
+21,Massachusetts,"Arts, Entertainment, and Recreation",56930,0.9947331483,3
+21,Massachusetts,Construction,147870,0.8972769274,1
+21,Massachusetts,Educational Services,369270,1.1541822989,4
+21,Massachusetts,Finance and Insurance,168990,1.1873900319,4
+21,Massachusetts,Health Care and Social Assistance,593800,1.2512194018,4
+21,Massachusetts,Information,87440,1.2846202183,4
+21,Massachusetts,Management of Companies and Enterprises,65400,1.1525600544,3
+21,Massachusetts,Manufacturing,247550,0.8142119845,1
+21,Massachusetts,"Mining, Quarrying, and Oil and Gas Extraction",1030,0.0643884504,0
+21,Massachusetts,Retail Trade,358230,0.909534393,0
+21,Massachusetts,Transportation and Warehousing,98980,0.7164449756,0
+21,Massachusetts,Utilities,10680,0.7880296874,1
+21,Massachusetts,Wholesale Trade,124140,0.8624760421,1
+22,Michigan,Accommodation and Food Services,380890,0.9518096861,2
+22,Michigan,"Agriculture, Forestry, Fishing and Hunting",5100,0.4080566875,2
+22,Michigan,"Arts, Entertainment, and Recreation",52870,0.7588254304,1
+22,Michigan,Construction,156770,0.7814056474,0
+22,Michigan,Educational Services,348960,0.895928168,0
+22,Michigan,Finance and Insurance,142320,0.8214204061,1
+22,Michigan,Health Care and Social Assistance,614850,1.0642155832,3
+22,Michigan,Information,57140,0.6895599029,1
+22,Michigan,Management of Companies and Enterprises,62230,0.9008506082,2
+22,Michigan,Manufacturing,598260,1.6163361502,4
+22,Michigan,"Mining, Quarrying, and Oil and Gas Extraction",5840,0.2998822465,1
+22,Michigan,Retail Trade,478870,0.9987158979,1
+22,Michigan,Transportation and Warehousing,137000,0.8145600732,0
+22,Michigan,Utilities,20070,1.2164264602,3
+22,Michigan,Wholesale Trade,171620,0.9794231308,2
+23,Minnesota,Accommodation and Food Services,228100,0.8542900341,0
+23,Minnesota,"Agriculture, Forestry, Fishing and Hunting",3150,0.3777377446,2
+23,Minnesota,"Arts, Entertainment, and Recreation",46500,1.0002648895,3
+23,Minnesota,Construction,119960,0.8961476078,1
+23,Minnesota,Educational Services,239440,0.9213481159,0
+23,Minnesota,Finance and Insurance,135010,1.1678713249,4
+23,Minnesota,Health Care and Social Assistance,458930,1.1905191626,4
+23,Minnesota,Information,50190,0.9077755157,3
+23,Minnesota,Management of Companies and Enterprises,80780,1.7526142131,4
+23,Minnesota,Manufacturing,317300,1.2848170675,3
+23,Minnesota,"Mining, Quarrying, and Oil and Gas Extraction",5750,0.4425223995,2
+23,Minnesota,Retail Trade,300940,0.940662335,0
+23,Minnesota,Transportation and Warehousing,103100,0.9187359748,2
+23,Minnesota,Utilities,11690,1.0618972659,2
+23,Minnesota,Wholesale Trade,132620,1.1343340997,4
+24,Mississippi,Accommodation and Food Services,123040,1.1591309159,4
+24,Mississippi,"Agriculture, Forestry, Fishing and Hunting",4720,1.423730995,4
+24,Mississippi,"Arts, Entertainment, and Recreation",11470,0.6206283383,0
+24,Mississippi,Construction,44920,0.8440903833,1
+24,Mississippi,Educational Services,113350,1.0971213962,3
+24,Mississippi,Finance and Insurance,31510,0.6856201507,0
+24,Mississippi,Health Care and Social Assistance,157740,1.029290325,3
+24,Mississippi,Information,11710,0.5327510034,0
+24,Mississippi,Management of Companies and Enterprises,10900,0.5948604435,1
+24,Mississippi,Manufacturing,142860,1.4550837241,4
+24,Mississippi,"Mining, Quarrying, and Oil and Gas Extraction",4090,0.7917659739,3
+24,Mississippi,Retail Trade,141970,1.1162373048,4
+24,Mississippi,Transportation and Warehousing,51710,1.1590781178,3
+24,Mississippi,Utilities,7900,1.8050997033,4
+24,Mississippi,Wholesale Trade,34210,0.7360226011,0
+25,Missouri,Accommodation and Food Services,259060,0.9887304552,2
+25,Missouri,"Agriculture, Forestry, Fishing and Hunting",2770,0.3384987692,2
+25,Missouri,"Arts, Entertainment, and Recreation",42170,0.9244068789,2
+25,Missouri,Construction,119060,0.9063719707,1
+25,Missouri,Educational Services,247370,0.9699996398,1
+25,Missouri,Finance and Insurance,122160,1.0768509057,3
+25,Missouri,Health Care and Social Assistance,400080,1.0576312615,3
+25,Missouri,Information,49580,0.913829739,3
+25,Missouri,Management of Companies and Enterprises,66530,1.4709486081,4
+25,Missouri,Manufacturing,262640,1.0837511977,2
+25,Missouri,"Mining, Quarrying, and Oil and Gas Extraction",3920,0.3074333494,2
+25,Missouri,Retail Trade,319780,1.0185975612,2
+25,Missouri,Transportation and Warehousing,113360,1.0294123872,2
+25,Missouri,Utilities,11750,1.0876855369,2
+25,Missouri,Wholesale Trade,120270,1.0483028605,3
+26,Montana,Accommodation and Food Services,51050,1.1816280191,4
+26,Montana,"Agriculture, Forestry, Fishing and Hunting",1040,0.7707581892,3
+26,Montana,"Arts, Entertainment, and Recreation",11240,1.4942847439,4
+26,Montana,Construction,27620,1.2751807449,4
+26,Montana,Educational Services,43590,1.0366183601,2
+26,Montana,Finance and Insurance,15180,0.8115322979,1
+26,Montana,Health Care and Social Assistance,66510,1.0663060398,3
+26,Montana,Information,6430,0.718748947,1
+26,Montana,Management of Companies and Enterprises,2750,0.3687399171,0
+26,Montana,Manufacturing,19600,0.4904923923,0
+26,Montana,"Mining, Quarrying, and Oil and Gas Extraction",6770,3.2200384824,4
+26,Montana,Retail Trade,60320,1.1652527871,4
+26,Montana,Transportation and Warehousing,16240,0.8943820228,1
+26,Montana,Utilities,3090,1.7347282468,4
+26,Montana,Wholesale Trade,17570,0.9287711252,2
+27,Nebraska,Accommodation and Food Services,76040,0.8268275567,0
+27,Nebraska,"Agriculture, Forestry, Fishing and Hunting",1760,0.6127527604,3
+27,Nebraska,"Arts, Entertainment, and Recreation",14080,0.879341371,1
+27,Nebraska,Construction,51150,1.1093830095,3
+27,Nebraska,Educational Services,92170,1.0296969236,2
+27,Nebraska,Finance and Insurance,55470,1.3930926578,4
+27,Nebraska,Health Care and Social Assistance,127720,0.9619259288,1
+27,Nebraska,Information,18190,0.9551833592,3
+27,Nebraska,Management of Companies and Enterprises,21610,1.3612253455,4
+27,Nebraska,Manufacturing,97380,1.1448109499,3
+27,Nebraska,"Mining, Quarrying, and Oil and Gas Extraction",1020,0.2279084173,1
+27,Nebraska,Retail Trade,112000,1.0163999624,2
+27,Nebraska,Transportation and Warehousing,58570,1.5153050149,4
+27,Nebraska,Utilities,1080,0.2848292107,0
+27,Nebraska,Wholesale Trade,42330,1.0511701316,3
+28,Nevada,Accommodation and Food Services,314260,2.6026493867,4
+28,Nevada,"Agriculture, Forestry, Fishing and Hunting",200,0.0530342376,0
+28,Nevada,"Arts, Entertainment, and Recreation",30150,1.434154348,4
+28,Nevada,Construction,74400,1.2290301412,4
+28,Nevada,Educational Services,81640,0.6946668105,0
+28,Nevada,Finance and Insurance,33710,0.6448137889,0
+28,Nevada,Health Care and Social Assistance,116830,0.6701790141,0
+28,Nevada,Information,14800,0.5919288263,0
+28,Nevada,Management of Companies and Enterprises,23380,1.1216916654,3
+28,Nevada,Manufacturing,43410,0.3886937133,0
+28,Nevada,"Mining, Quarrying, and Oil and Gas Extraction",13700,2.3314949903,4
+28,Nevada,Retail Trade,145800,1.0077617435,1
+28,Nevada,Transportation and Warehousing,63080,1.2429974773,4
+28,Nevada,Utilities,4040,0.8115137114,1
+28,Nevada,Wholesale Trade,34500,0.6525256153,0
+29,New Hampshire,Accommodation and Food Services,56370,0.9198199967,1
+29,New Hampshire,"Agriculture, Forestry, Fishing and Hunting",520,0.2716801635,1
+29,New Hampshire,"Arts, Entertainment, and Recreation",10060,0.9428330761,2
+29,New Hampshire,Construction,25720,0.837122113,0
+29,New Hampshire,Educational Services,66470,1.1143650537,4
+29,New Hampshire,Finance and Insurance,29040,1.0944613444,3
+29,New Hampshire,Health Care and Social Assistance,89950,1.0166368954,2
+29,New Hampshire,Information,12390,0.9763540516,3
+29,New Hampshire,Management of Companies and Enterprises,9390,0.8876113153,2
+29,New Hampshire,Manufacturing,67480,1.1904771286,3
+29,New Hampshire,"Mining, Quarrying, and Oil and Gas Extraction",570,0.1911247925,1
+29,New Hampshire,Retail Trade,96920,1.3199029541,4
+29,New Hampshire,Transportation and Warehousing,17390,0.6751595207,0
+29,New Hampshire,Utilities,2240,0.8865245505,1
+29,New Hampshire,Wholesale Trade,27420,1.021819466,3
+30,New Jersey,Accommodation and Food Services,303370,0.8073017685,0
+30,New Jersey,"Agriculture, Forestry, Fishing and Hunting",3100,0.2641342628,1
+30,New Jersey,"Arts, Entertainment, and Recreation",61510,0.9401367215,2
+30,New Jersey,Construction,155090,0.8232089931,0
+30,New Jersey,Educational Services,399360,1.0918797947,3
+30,New Jersey,Finance and Insurance,173620,1.0671169723,3
+30,New Jersey,Health Care and Social Assistance,559560,1.0313826491,3
+30,New Jersey,Information,71730,0.9218182831,3
+30,New Jersey,Management of Companies and Enterprises,84340,1.3001674666,3
+30,New Jersey,Manufacturing,239830,0.6900140756,1
+30,New Jersey,"Mining, Quarrying, and Oil and Gas Extraction",1370,0.0749154165,0
+30,New Jersey,Retail Trade,463820,1.0301169356,2
+30,New Jersey,Transportation and Warehousing,193890,1.2276390237,4
+30,New Jersey,Utilities,14310,0.9236147134,2
+30,New Jersey,Wholesale Trade,215650,1.3105833438,4
+31,New Mexico,Accommodation and Food Services,90250,1.1794029461,4
+31,New Mexico,"Agriculture, Forestry, Fishing and Hunting",2570,1.0753451863,4
+31,New Mexico,"Arts, Entertainment, and Recreation",12920,0.9697494199,3
+31,New Mexico,Construction,43650,1.1377904486,3
+31,New Mexico,Educational Services,80710,1.0836507564,3
+31,New Mexico,Finance and Insurance,22150,0.6685559087,0
+31,New Mexico,Health Care and Social Assistance,126710,1.1469269978,4
+31,New Mexico,Information,12830,0.8096976308,2
+31,New Mexico,Management of Companies and Enterprises,5500,0.4163706543,0
+31,New Mexico,Manufacturing,27540,0.3891079498,0
+31,New Mexico,"Mining, Quarrying, and Oil and Gas Extraction",21440,5.7574097358,4
+31,New Mexico,Retail Trade,94130,1.0266368288,2
+31,New Mexico,Transportation and Warehousing,23240,0.7226085962,0
+31,New Mexico,Utilities,4470,1.4168062288,3
+31,New Mexico,Wholesale Trade,21590,0.6443466122,0
+32,New York,Accommodation and Food Services,748320,0.8657775482,0
+32,New York,"Agriculture, Forestry, Fishing and Hunting",3130,0.1159479511,0
+32,New York,"Arts, Entertainment, and Recreation",167960,1.1161096158,3
+32,New York,Construction,377110,0.8702620664,1
+32,New York,Educational Services,984030,1.169699486,4
+32,New York,Finance and Insurance,496190,1.3259158961,4
+32,New York,Health Care and Social Assistance,1500320,1.2022997383,4
+32,New York,Information,261100,1.4588379516,4
+32,New York,Management of Companies and Enterprises,154750,1.0371750242,3
+32,New York,Manufacturing,452200,0.5656407572,1
+32,New York,"Mining, Quarrying, and Oil and Gas Extraction",4690,0.1115011043,0
+32,New York,Retail Trade,948220,0.9155917302,0
+32,New York,Transportation and Warehousing,307920,0.8476349727,1
+32,New York,Utilities,37310,1.0469649733,2
+32,New York,Wholesale Trade,337120,0.8907491045,2
+33,North Carolina,Accommodation and Food Services,411850,1.0245712935,3
+33,North Carolina,"Agriculture, Forestry, Fishing and Hunting",7430,0.5918228124,3
+33,North Carolina,"Arts, Entertainment, and Recreation",71130,1.0163374743,3
+33,North Carolina,Construction,196900,0.9770389276,2
+33,North Carolina,Educational Services,391730,1.0012371131,2
+33,North Carolina,Finance and Insurance,157820,0.9068055208,2
+33,North Carolina,Health Care and Social Assistance,572210,0.9859807679,2
+33,North Carolina,Information,70820,0.8508250152,2
+33,North Carolina,Management of Companies and Enterprises,94470,1.3614429722,4
+33,North Carolina,Manufacturing,462580,1.2441740398,3
+33,North Carolina,"Mining, Quarrying, and Oil and Gas Extraction",2690,0.137512682,1
+33,North Carolina,Retail Trade,498320,1.0346303516,3
+33,North Carolina,Transportation and Warehousing,142990,0.8463710144,1
+33,North Carolina,Utilities,13190,0.7958584753,1
+33,North Carolina,Wholesale Trade,175750,0.9985052587,3
+34,North Dakota,Accommodation and Food Services,35510,0.8790338677,0
+34,North Dakota,"Agriculture, Forestry, Fishing and Hunting",760,0.6023768906,3
+34,North Dakota,"Arts, Entertainment, and Recreation",6680,0.9497589949,2
+34,North Dakota,Construction,33060,1.6323783378,4
+34,North Dakota,Educational Services,36800,0.9359437486,0
+34,North Dakota,Finance and Insurance,18230,1.0422948875,3
+34,North Dakota,Health Care and Social Assistance,58390,1.0011595587,2
+34,North Dakota,Information,6450,0.7710736546,2
+34,North Dakota,Management of Companies and Enterprises,5300,0.7600343679,2
+34,North Dakota,Manufacturing,25050,0.6704306122,1
+34,North Dakota,"Mining, Quarrying, and Oil and Gas Extraction",16850,8.5712112698,4
+34,North Dakota,Retail Trade,50450,1.0422931647,3
+34,North Dakota,Transportation and Warehousing,22070,1.2998979867,4
+34,North Dakota,Utilities,3860,2.3175556803,4
+34,North Dakota,Wholesale Trade,25380,1.43482344,4
+35,Ohio,Accommodation and Food Services,474990,0.936619161,1
+35,Ohio,"Agriculture, Forestry, Fishing and Hunting",2240,0.1414250576,0
+35,Ohio,"Arts, Entertainment, and Recreation",77550,0.8782990055,1
+35,Ohio,Construction,210890,0.8294641045,0
+35,Ohio,Educational Services,444930,0.9013993795,0
+35,Ohio,Finance and Insurance,218170,0.9936252208,2
+35,Ohio,Health Care and Social Assistance,817460,1.11649034,3
+35,Ohio,Information,72090,0.6864909426,1
+35,Ohio,Management of Companies and Enterprises,138250,1.5792327341,4
+35,Ohio,Manufacturing,687620,1.4659469086,4
+35,Ohio,"Mining, Quarrying, and Oil and Gas Extraction",11910,0.4825893043,2
+35,Ohio,Retail Trade,583300,0.9599405365,0
+35,Ohio,Transportation and Warehousing,216000,1.0134079924,2
+35,Ohio,Utilities,19300,0.9230470048,1
+35,Ohio,Wholesale Trade,235470,1.0603910779,4
+36,Oklahoma,Accommodation and Food Services,149560,0.9920117692,2
+36,Oklahoma,"Agriculture, Forestry, Fishing and Hunting",930,0.197507727,1
+36,Oklahoma,"Arts, Entertainment, and Recreation",37060,1.4118507872,4
+36,Oklahoma,Construction,77330,1.0230866467,2
+36,Oklahoma,Educational Services,155330,1.058531299,3
+36,Oklahoma,Finance and Insurance,55500,0.8502435665,2
+36,Oklahoma,Health Care and Social Assistance,205150,0.9425030769,1
+36,Oklahoma,Information,21530,0.6896466206,1
+36,Oklahoma,Management of Companies and Enterprises,19800,0.7607973377,2
+36,Oklahoma,Manufacturing,132020,0.9467433578,2
+36,Oklahoma,"Mining, Quarrying, and Oil and Gas Extraction",45780,6.2397115805,4
+36,Oklahoma,Retail Trade,186230,1.0309195959,2
+36,Oklahoma,Transportation and Warehousing,59620,0.9409040591,2
+36,Oklahoma,Utilities,11790,1.8967195034,4
+36,Oklahoma,Wholesale Trade,58630,0.8881231115,1
+37,Oregon,Accommodation and Food Services,175430,1.0310293267,3
+37,Oregon,"Agriculture, Forestry, Fishing and Hunting",12600,2.3710323237,4
+37,Oregon,"Arts, Entertainment, and Recreation",24940,0.8418711393,1
+37,Oregon,Construction,87060,1.0205842361,2
+37,Oregon,Educational Services,155680,0.9400413804,1
+37,Oregon,Finance and Insurance,55870,0.7583938975,1
+37,Oregon,Health Care and Social Assistance,232390,0.9460072796,1
+37,Oregon,Information,33310,0.9454161184,3
+37,Oregon,Management of Companies and Enterprises,44790,1.5249325807,4
+37,Oregon,Manufacturing,187090,1.1888002847,3
+37,Oregon,"Mining, Quarrying, and Oil and Gas Extraction",1730,0.2089299101,1
+37,Oregon,Retail Trade,205780,1.0093553783,2
+37,Oregon,Transportation and Warehousing,63150,0.8830646753,1
+37,Oregon,Utilities,4530,0.6457334645,0
+37,Oregon,Wholesale Trade,74950,1.0059831393,3
+38,Pennsylvania,Accommodation and Food Services,464140,0.8500695915,0
+38,Pennsylvania,"Agriculture, Forestry, Fishing and Hunting",3830,0.2245970416,1
+38,Pennsylvania,"Arts, Entertainment, and Recreation",92100,0.9688290007,2
+38,Pennsylvania,Construction,244390,0.8927954173,1
+38,Pennsylvania,Educational Services,498540,0.938107236,1
+38,Pennsylvania,Finance and Insurance,253430,1.0720437514,3
+38,Pennsylvania,Health Care and Social Assistance,972210,1.2333190909,4
+38,Pennsylvania,Information,83260,0.7364158105,1
+38,Pennsylvania,Management of Companies and Enterprises,134260,1.4244740817,4
+38,Pennsylvania,Manufacturing,562310,1.1134544628,3
+38,Pennsylvania,"Mining, Quarrying, and Oil and Gas Extraction",26760,1.0071147377,3
+38,Pennsylvania,Retail Trade,642900,0.9827039285,1
+38,Pennsylvania,Transportation and Warehousing,279280,1.2170188953,3
+38,Pennsylvania,Utilities,24170,1.0736681501,2
+38,Pennsylvania,Wholesale Trade,220660,0.9229560189,2
+39,Rhode Island,Accommodation and Food Services,48010,1.0634390526,3
+39,Rhode Island,"Agriculture, Forestry, Fishing and Hunting",50,0.0354609754,0
+39,Rhode Island,"Arts, Entertainment, and Recreation",9060,1.1526331709,3
+39,Rhode Island,Construction,18310,0.8089697479,0
+39,Rhode Island,Educational Services,47240,1.0750725703,3
+39,Rhode Island,Finance and Insurance,26670,1.3644352089,4
+39,Rhode Island,Health Care and Social Assistance,79750,1.2235493139,4
+39,Rhode Island,Information,5780,0.6182867673,0
+39,Rhode Island,Management of Companies and Enterprises,13970,1.7925848874,4
+39,Rhode Island,Manufacturing,40960,0.9809164486,2
+39,Rhode Island,"Mining, Quarrying, and Oil and Gas Extraction",200,0.0910328739,0
+39,Rhode Island,Retail Trade,48980,0.9054687432,0
+39,Rhode Island,Transportation and Warehousing,13280,0.6998919142,0
+39,Rhode Island,Utilities,1090,0.5855922676,0
+39,Rhode Island,Wholesale Trade,16840,0.8518730822,1
+40,South Carolina,Accommodation and Food Services,217330,1.1554260755,4
+40,South Carolina,"Agriculture, Forestry, Fishing and Hunting",4500,0.7660105879,3
+40,South Carolina,"Arts, Entertainment, and Recreation",30410,0.9285834129,2
+40,South Carolina,Construction,91530,0.9706194387,2
+40,South Carolina,Educational Services,173020,0.945073935,1
+40,South Carolina,Finance and Insurance,67750,0.8319185096,1
+40,South Carolina,Health Care and Social Assistance,243060,0.8950470494,1
+40,South Carolina,Information,27670,0.7104162027,1
+40,South Carolina,Management of Companies and Enterprises,17820,0.5488233872,0
+40,South Carolina,Manufacturing,239430,1.3762338012,4
+40,South Carolina,"Mining, Quarrying, and Oil and Gas Extraction",1380,0.1507609724,1
+40,South Carolina,Retail Trade,248820,1.1040317257,4
+40,South Carolina,Transportation and Warehousing,70390,0.8904006161,1
+40,South Carolina,Utilities,12380,1.5963608404,4
+40,South Carolina,Wholesale Trade,71110,0.8633861397,1
+41,South Dakota,Accommodation and Food Services,40280,1.0154542687,2
+41,South Dakota,"Agriculture, Forestry, Fishing and Hunting",540,0.4358774905,2
+41,South Dakota,"Arts, Entertainment, and Recreation",7550,1.093200638,3
+41,South Dakota,Construction,22920,1.1525202346,3
+41,South Dakota,Educational Services,36510,0.9456484916,1
+41,South Dakota,Finance and Insurance,25320,1.4742923507,4
+41,South Dakota,Health Care and Social Assistance,62430,1.090119554,3
+41,South Dakota,Information,5850,0.7122098704,1
+41,South Dakota,Management of Companies and Enterprises,5040,0.7360441578,1
+41,South Dakota,Manufacturing,42480,1.1578347665,3
+41,South Dakota,"Mining, Quarrying, and Oil and Gas Extraction",890,0.4610502624,2
+41,South Dakota,Retail Trade,53990,1.1359468683,4
+41,South Dakota,Transportation and Warehousing,13510,0.8103604911,0
+41,South Dakota,Utilities,2030,1.2412374839,3
+41,South Dakota,Wholesale Trade,21420,1.2332248962,4
+42,Tennessee,Accommodation and Food Services,283010,1.0296640135,3
+42,Tennessee,"Agriculture, Forestry, Fishing and Hunting",1840,0.2143440096,1
+42,Tennessee,"Arts, Entertainment, and Recreation",35100,0.7334708977,0
+42,Tennessee,Construction,115350,0.8370943102,0
+42,Tennessee,Educational Services,234610,0.8769751072,0
+42,Tennessee,Finance and Insurance,106870,0.8980459647,2
+42,Tennessee,Health Care and Social Assistance,395350,0.9962891107,2
+42,Tennessee,Information,43570,0.7655305514,2
+42,Tennessee,Management of Companies and Enterprises,45620,0.9615048071,2
+42,Tennessee,Manufacturing,340500,1.3393745415,4
+42,Tennessee,"Mining, Quarrying, and Oil and Gas Extraction",3240,0.2422289923,1
+42,Tennessee,Retail Trade,336420,1.0215258077,2
+42,Tennessee,Transportation and Warehousing,171530,1.4848611451,4
+42,Tennessee,Utilities,3410,0.3009096177,0
+42,Tennessee,Wholesale Trade,121830,1.0122782528,3
+43,Texas,Accommodation and Food Services,1145030,1.0261309613,3
+43,Texas,"Agriculture, Forestry, Fishing and Hunting",13340,0.3827732065,2
+43,Texas,"Arts, Entertainment, and Recreation",135130,0.6955361711,0
+43,Texas,Construction,696720,1.2453953556,4
+43,Texas,Educational Services,1201790,1.1065257013,4
+43,Texas,Finance and Insurance,509650,1.054889472,3
+43,Texas,Health Care and Social Assistance,1486430,0.9226569882,1
+43,Texas,Information,200380,0.8672044805,3
+43,Texas,Management of Companies and Enterprises,129820,0.6739535369,1
+43,Texas,Manufacturing,861740,0.8349363114,1
+43,Texas,"Mining, Quarrying, and Oil and Gas Extraction",231380,4.2608780273,4
+43,Texas,Retail Trade,1326690,0.99226841,1
+43,Texas,Transportation and Warehousing,507260,1.0816046505,3
+43,Texas,Utilities,49840,1.083307866,2
+43,Texas,Wholesale Trade,567580,1.161622243,4
+44,Utah,Accommodation and Food Services,113720,0.8705905137,0
+44,Utah,"Agriculture, Forestry, Fishing and Hunting",610,0.1495225479,0
+44,Utah,"Arts, Entertainment, and Recreation",20460,0.8996316503,2
+44,Utah,Construction,90720,1.3852978465,4
+44,Utah,Educational Services,136240,1.0715901379,3
+44,Utah,Finance and Insurance,61850,1.093618345,3
+44,Utah,Health Care and Social Assistance,149640,0.7934775914,0
+44,Utah,Information,35020,1.2947157638,4
+44,Utah,Management of Companies and Enterprises,18760,0.8319789521,2
+44,Utah,Manufacturing,124890,1.0337033303,2
+44,Utah,"Mining, Quarrying, and Oil and Gas Extraction",9120,1.4346939835,3
+44,Utah,Retail Trade,164460,1.0507784294,3
+44,Utah,Transportation and Warehousing,58020,1.0568340719,3
+44,Utah,Utilities,3930,0.7297222132,0
+44,Utah,Wholesale Trade,50040,0.8748755712,1
+45,Vermont,Accommodation and Food Services,29480,1.0184646935,3
+45,Vermont,"Agriculture, Forestry, Fishing and Hunting",430,0.4756491543,2
+45,Vermont,"Arts, Entertainment, and Recreation",3850,0.7639435098,1
+45,Vermont,Construction,15870,1.0935999047,3
+45,Vermont,Educational Services,39590,1.405241588,4
+45,Vermont,Finance and Insurance,8710,0.6950013644,0
+45,Vermont,Health Care and Social Assistance,50750,1.2144074779,4
+45,Vermont,Information,4740,0.7908207483,2
+45,Vermont,Management of Companies and Enterprises,1810,0.362242581,0
+45,Vermont,Manufacturing,30780,1.1496834636,3
+45,Vermont,"Mining, Quarrying, and Oil and Gas Extraction",670,0.4756425085,2
+45,Vermont,Retail Trade,38230,1.1022918094,3
+45,Vermont,Transportation and Warehousing,8540,0.7019858723,0
+45,Vermont,Utilities,1490,1.2485119516,3
+45,Vermont,Wholesale Trade,9520,0.7511165942,0
+46,Virginia,Accommodation and Food Services,343320,0.9609392396,2
+46,Virginia,"Agriculture, Forestry, Fishing and Hunting",4150,0.3719158569,2
+46,Virginia,"Arts, Entertainment, and Recreation",53120,0.8539587791,1
+46,Virginia,Construction,187890,1.0489711129,3
+46,Virginia,Educational Services,365630,1.0514427726,3
+46,Virginia,Finance and Insurance,134200,0.867557649,2
+46,Virginia,Health Care and Social Assistance,441300,0.8555406293,0
+46,Virginia,Information,67480,0.9121223815,3
+46,Virginia,Management of Companies and Enterprises,74570,1.2091032624,3
+46,Virginia,Manufacturing,234100,0.7084177074,1
+46,Virginia,"Mining, Quarrying, and Oil and Gas Extraction",6000,0.3450924308,2
+46,Virginia,Retail Trade,423540,0.9893843577,1
+46,Virginia,Transportation and Warehousing,136370,0.9081710777,2
+46,Virginia,Utilities,10800,0.7331764661,1
+46,Virginia,Wholesale Trade,109510,0.7000072089,0
+47,Washington,Accommodation and Food Services,267750,0.918857827,1
+47,Washington,"Agriculture, Forestry, Fishing and Hunting",22110,2.4294465941,4
+47,Washington,"Arts, Entertainment, and Recreation",62310,1.2281703483,4
+47,Washington,Construction,169430,1.1597708487,3
+47,Washington,Educational Services,277000,0.9766649497,1
+47,Washington,Finance and Insurance,92560,0.7336538294,1
+47,Washington,Health Care and Social Assistance,386130,0.9178300486,1
+47,Washington,Information,117450,1.9464940259,4
+47,Washington,Management of Companies and Enterprises,43090,0.8566388361,2
+47,Washington,Manufacturing,288570,1.0706836957,2
+47,Washington,"Mining, Quarrying, and Oil and Gas Extraction",2410,0.169950811,1
+47,Washington,Retail Trade,361140,1.0343516622,3
+47,Washington,Transportation and Warehousing,107480,0.8776038092,1
+47,Washington,Utilities,4810,0.4003610805,0
+47,Washington,Wholesale Trade,131160,1.0279503933,3
+48,West Virginia,Accommodation and Food Services,68030,1.0266958601,3
+48,West Virginia,"Agriculture, Forestry, Fishing and Hunting",930,0.4493906816,2
+48,West Virginia,"Arts, Entertainment, and Recreation",7650,0.6631088012,0
+48,West Virginia,Construction,31400,0.9452224454,2
+48,West Virginia,Educational Services,66180,1.0261600341,2
+48,West Virginia,Finance and Insurance,18030,0.6284721971,0
+48,West Virginia,Health Care and Social Assistance,123100,1.2867947491,4
+48,West Virginia,Information,9700,0.7069590992,1
+48,West Virginia,Management of Companies and Enterprises,6390,0.5586562011,0
+48,West Virginia,Manufacturing,47370,0.772922402,1
+48,West Virginia,"Mining, Quarrying, and Oil and Gas Extraction",21010,6.515605053,4
+48,West Virginia,Retail Trade,88540,1.115204828,4
+48,West Virginia,Transportation and Warehousing,25440,0.913503991,2
+48,West Virginia,Utilities,5080,1.8594863251,4
+48,West Virginia,Wholesale Trade,21790,0.7510182309,0
+49,Wisconsin,Accommodation and Food Services,236440,0.8872269563,0
+49,Wisconsin,"Agriculture, Forestry, Fishing and Hunting",3930,0.472178385,2
+49,Wisconsin,"Arts, Entertainment, and Recreation",44060,0.9495990854,2
+49,Wisconsin,Construction,113820,0.8519132969,1
+49,Wisconsin,Educational Services,225690,0.8701078517,0
+49,Wisconsin,Finance and Insurance,121640,1.0542392769,3
+49,Wisconsin,Health Care and Social Assistance,394760,1.0260223123,2
+49,Wisconsin,Information,49550,0.8979220798,3
+49,Wisconsin,Management of Companies and Enterprises,68030,1.4788246273,4
+49,Wisconsin,Manufacturing,463070,1.8786747315,4
+49,Wisconsin,"Mining, Quarrying, and Oil and Gas Extraction",3240,0.2498308969,1
+49,Wisconsin,Retail Trade,311230,0.9746956185,0
+49,Wisconsin,Transportation and Warehousing,110990,0.990945184,2
+49,Wisconsin,Utilities,10050,0.9146770367,1
+49,Wisconsin,Wholesale Trade,123710,1.0601577537,4
+50,Wyoming,Accommodation and Food Services,31370,1.195817337,4
+50,Wyoming,"Agriculture, Forestry, Fishing and Hunting",250,0.3051336541,1
+50,Wyoming,"Arts, Entertainment, and Recreation",2770,0.6064738966,0
+50,Wyoming,Construction,22760,1.7305558609,4
+50,Wyoming,Educational Services,30610,1.1988384125,4
+50,Wyoming,Finance and Insurance,6840,0.6022203567,0
+50,Wyoming,Health Care and Social Assistance,32470,0.8573191066,0
+50,Wyoming,Information,3780,0.6958623527,1
+50,Wyoming,Management of Companies and Enterprises,1030,0.2274521138,0
+50,Wyoming,Manufacturing,9440,0.3890572309,0
+50,Wyoming,"Mining, Quarrying, and Oil and Gas Extraction",20110,15.7525097315,4
+50,Wyoming,Retail Trade,31000,0.9862472473,1
+50,Wyoming,Transportation and Warehousing,13460,1.220808063,4
+50,Wyoming,Utilities,2550,2.3576451722,4
+50,Wyoming,Wholesale Trade,8880,0.7730635595,1
+51,Guam,Accommodation and Food Services,11030,1.8871541533,4
+51,Guam,"Agriculture, Forestry, Fishing and Hunting",,,
+51,Guam,"Arts, Entertainment, and Recreation",990,0.9728571532,3
+51,Guam,Construction,6610,2.2557780282,4
+51,Guam,Educational Services,6080,1.0687655278,3
+51,Guam,Finance and Insurance,1790,0.7073492525,0
+51,Guam,Health Care and Social Assistance,3470,0.4112171575,0
+51,Guam,Information,1550,1.280692238,4
+51,Guam,Management of Companies and Enterprises,,,805906.5
+51,Guam,Manufacturing,1530,0.283018266,0
+51,Guam,"Mining, Quarrying, and Oil and Gas Extraction",,,
+51,Guam,Retail Trade,6490,0.9267238604,0
+51,Guam,Transportation and Warehousing,2560,1.0421346411,3
+51,Guam,Utilities,,,
+51,Guam,Wholesale Trade,2180,0.8518051624,1
+52,Puerto Rico,Accommodation and Food Services,76200,0.9079573175,1
+52,Puerto Rico,"Agriculture, Forestry, Fishing and Hunting",210,0.0801178951,0
+52,Puerto Rico,"Arts, Entertainment, and Recreation",4300,0.2942801268,0
+52,Puerto Rico,Construction,23370,0.5554336819,0
+52,Puerto Rico,Educational Services,97160,1.1894466332,4
+52,Puerto Rico,Finance and Insurance,28720,0.7903944836,1
+52,Puerto Rico,Health Care and Social Assistance,85300,0.7039946847,0
+52,Puerto Rico,Information,17570,1.0110285921,4
+52,Puerto Rico,Management of Companies and Enterprises,13870,0.9573910177,2
+52,Puerto Rico,Manufacturing,74090,0.9544676796,2
+52,Puerto Rico,"Mining, Quarrying, and Oil and Gas Extraction",490,0.1199758681,0
+52,Puerto Rico,Retail Trade,129580,1.2886121467,4
+52,Puerto Rico,Transportation and Warehousing,18090,0.5128626013,0
+52,Puerto Rico,Utilities,350,0.1011501294,0
+52,Puerto Rico,Wholesale Trade,29540,0.8038460132,1
+53,Virgin Islands,Accommodation and Food Services,6790,1.9150333025,4
+53,Virgin Islands,"Agriculture, Forestry, Fishing and Hunting",,,
+53,Virgin Islands,"Arts, Entertainment, and Recreation",850,1.3769161674,4
+53,Virgin Islands,Construction,1500,0.8438414483,0
+53,Virgin Islands,Educational Services,4240,1.2286251654,4
+53,Virgin Islands,Finance and Insurance,1040,0.6774681758,0
+53,Virgin Islands,Health Care and Social Assistance,2190,0.427819483,0
+53,Virgin Islands,Information,680,0.9261827405,3
+53,Virgin Islands,Management of Companies and Enterprises,160,0.2614140737,0
+53,Virgin Islands,Manufacturing,620,0.1890555435,0
+53,Virgin Islands,"Mining, Quarrying, and Oil and Gas Extraction",,,
+53,Virgin Islands,Retail Trade,5950,1.4005457681,4
+53,Virgin Islands,Transportation and Warehousing,1540,1.033425752,3
+53,Virgin Islands,Utilities,70,0.4788423276,0
+53,Virgin Islands,Wholesale Trade,700,0.450875364,0

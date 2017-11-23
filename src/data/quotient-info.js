@@ -1,4 +1,4 @@
-var quotients = ﻿[
+var quotients = [
  {
    "id": 0,
    "area_title": "Alabama",
@@ -364,3 +364,5 @@ var quotients = ﻿[
    "manufact_locq": 0.9544676796203031
  },
 ]
+
+// export {quotients};

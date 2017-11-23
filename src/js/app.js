@@ -12,6 +12,11 @@ for (var i=0; i< statesData.features.length; i++){
     statesData.features[i].properties.quotient = quotients[i].manufact_locq
 }
 
+//New function -> match by state name, add new properties for industry quotient
+// statesData.features.forEach(function(feature){
+    
+// })
+
 //Add states data
 L.geoJson(statesData).addTo(statesmap);
 //
