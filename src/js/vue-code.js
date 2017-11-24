@@ -10,6 +10,11 @@ var industryVue = new Vue({
     industry: 'default',
     par1: para1,
     par2: para2
+  },
+  methods: {
+    setIndustry: function (title) {
+      this.industry = title;
+    }
   }
 })
 

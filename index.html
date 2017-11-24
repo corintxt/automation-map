@@ -52,8 +52,22 @@
     <hr> <!-- end header -->
 
     <div class="row" style="margin-top: 5%">
-          <div><h3>Automation Quotient By State: {{ industry }}</h3></div>
+          <div class="one-half column">
+            <h3>Industry: {{ industry }}</h3>
+          </div>
+          <div class="one-half column">
+            <!-- to do: populate list with a v-for loop -->
+              <label for="industrySelect">Select another industry:</label>
+              <select class="u-full-width" id="industryInput">
+                <option value="Option 1">Education</option>
+                <option value="Option 2">Management</option>
+                <option value="Option 3">I.T.</option>
+              </select>
+          </div>
     </div>
+
+    <hr>
+    
     <div class="row">
       <div id="map1"></div>
     </div>

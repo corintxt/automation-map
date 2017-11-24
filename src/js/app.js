@@ -35,6 +35,7 @@ function getColor(d) {
 }
 
 var industryName = 'Educational Services';
+industryVue.setIndustry(industryName);
 
 //Add feature styling to map
 function style(feature) {
@@ -51,7 +52,6 @@ L.geoJson(statesData, {style: style}).addTo(statesmap);
 
 //Define a mouseover highlight listener
 function highlightFeature(e) {
-    console.log("highlight")
     var layer = e.target;
    //todo vm.data.selected = e.target
     layer.setStyle({
