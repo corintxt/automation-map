@@ -9,7 +9,21 @@ var industryVue = new Vue({
     message: 'VueJS: on.',
     industry: 'default',
     par1: para1,
-    par2: para2
+    par2: para2,
+    options: [
+      { text: 'Accommodation and Food Services', value: ''},
+      { text: 'Agriculture, Forestry, Fishing and Hunting', value: ''},
+      { text: 'Arts, Entertainment, and Recreation', value: ''},
+      { text: 'Construction', value: ''},
+      { text: 'Educational Services', value: ''},
+      { text: 'Finance and Insurance', value: ''},
+      { text: 'Health Care and Social Assistance', value: ''},
+      { text: 'Manufacturing', value: ''},
+      { text: 'Mining, Quarrying, and Oil and Gas Extraction', value: ''},
+      { text: 'Retail Trade', value: ''},
+      { text: 'Transportation and Warehousing', value: ''},
+      { text: 'Wholesale Trade', value: ''},        
+    ]
   },
   methods: {
     setIndustry: function (title) {

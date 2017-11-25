@@ -34,7 +34,7 @@ function getColor(d) {
                       '#fde0dd';
 }
 
-var industryName = 'Educational Services';
+var industryName = 'Manufacturing';
 industryVue.setIndustry(industryName);
 
 //Add feature styling to map
