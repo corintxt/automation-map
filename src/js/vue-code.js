@@ -7,27 +7,28 @@ var industryVue = new Vue({
   el: '#vue',
   data: {
     message: 'VueJS: on.',
-    industry: 'default',
+    selected: 'Manufacturing',
     par1: para1,
     par2: para2,
     options: [
-      { text: 'Accommodation and Food Services', value: ''},
-      { text: 'Agriculture, Forestry, Fishing and Hunting', value: ''},
-      { text: 'Arts, Entertainment, and Recreation', value: ''},
-      { text: 'Construction', value: ''},
-      { text: 'Educational Services', value: ''},
-      { text: 'Finance and Insurance', value: ''},
-      { text: 'Health Care and Social Assistance', value: ''},
-      { text: 'Manufacturing', value: ''},
-      { text: 'Mining, Quarrying, and Oil and Gas Extraction', value: ''},
-      { text: 'Retail Trade', value: ''},
-      { text: 'Transportation and Warehousing', value: ''},
-      { text: 'Wholesale Trade', value: ''},        
+      { text: 'Accommodation and Food Services'},
+      { text: 'Agriculture, Forestry, Fishing and Hunting'},
+      { text: 'Arts, Entertainment, and Recreation'},
+      { text: 'Construction'},
+      { text: 'Educational Services'},
+      { text: 'Finance and Insurance'},
+      { text: 'Health Care and Social Assistance'},
+      { text: 'Manufacturing'},
+      { text: 'Mining, Quarrying, and Oil and Gas Extraction'},
+      { text: 'Retail Trade'},
+      { text: 'Transportation and Warehousing'},
+      { text: 'Wholesale Trade'},
     ]
   },
   methods: {
-    setIndustry: function (title) {
-      this.industry = title;
+    changeIndustry: function (){
+      console.log("Industry: " + this.selected);
+      styleMapforIndustry(this.selected);
     }
   }
 })

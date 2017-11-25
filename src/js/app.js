@@ -34,99 +34,107 @@ function getColor(d) {
                       '#fde0dd';
 }
 
-var industryName = 'Manufacturing';
-industryVue.setIndustry(industryName);
+//Initialize map with default industry
+styleMapforIndustry('Manufacturing');
 
-//Add feature styling to map
-function style(feature) {
-    return {
-        fillColor: getColor(feature.properties[industryName].locq),
-        weight: 1,
-        opacity: 1,
-        color: 'white',
-        dashArray: '3',
-        fillOpacity: 0.5
+//Wrap up all map functions in one, starting here:
+var info, legend;
+function styleMapforIndustry(industry){
+    //Add feature styling to map
+    function style(feature) {
+        return {
+            fillColor: getColor(feature.properties[industry].locq),
+            weight: 1,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.5
+        };
+    }
+    L.geoJson(statesData, {style: style}).addTo(statesmap);
+
+    //Define a mouseover highlight listener
+    function highlightFeature(e) {
+        var layer = e.target;
+    //todo vm.data.selected = e.target
+        layer.setStyle({
+            weight: 3,
+            color: '#3388ff',
+            dashArray: '',
+            fillOpacity: 0.9
+        });
+
+        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+            layer.bringToFront();
+        }
+
+        info.update(layer.feature.properties);
+
+    }
+    //Define highlight reset
+    function resetHighlight(e) {
+        geojson.resetStyle(e.target);
+        info.update()
+    }
+
+    //Add event listeners for interactivity
+    function onEachFeature(feature, layer) {
+        layer.on({
+            mouseover: highlightFeature,
+            mouseout: resetHighlight,
+            click: zoomToFeature
+        });
+    }
+
+    //Zoom to state
+    function zoomToFeature(e) {
+        statesmap.fitBounds(e.target.getBounds());
+    }
+
+    geojson = L.geoJson(statesData, {
+        style: style,
+        onEachFeature: onEachFeature
+    }).addTo(statesmap);
+
+    //Add info display panel
+    if (info){ info.remove() } //clear if called before
+
+    info = L.control();
+
+    info.onAdd = function (map) {
+        this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+        this.update();
+        return this._div;
     };
+
+    info.update = function (props) {
+        this._div.innerHTML = '<h4>Automation Quotient By State</h4>' +  (props ?
+            '<b>' + props.name + '</b><br />' + 'Quotient: ' + props[industry].locq.toFixed(4)
+            : 'Hover over a state');
+    };
+
+    info.addTo(statesmap);
+
+    //Add legend
+    if (legend){ legend.remove() }
+    legend = L.control({position: 'bottomright'});
+
+    legend.onAdd = function (map) {
+
+        var div = L.DomUtil.create('div', 'info legend'),
+            grades = [0, .25, .5, .75, 1.0, 1.25, 1.5, 1.75],
+            labels = [];
+
+        // loop through our density intervals and generate a label with a colored square for each interval
+        for (var i = 0; i < grades.length; i++) {
+            div.innerHTML +=
+                '<i style="background:' + getColor(grades[i]+.25) + '"></i> ' +
+                grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+        }
+
+        return div;
+    };
+
+    legend.addTo(statesmap);
+
 }
-L.geoJson(statesData, {style: style}).addTo(statesmap);
-
-//Define a mouseover highlight listener
-function highlightFeature(e) {
-    var layer = e.target;
-   //todo vm.data.selected = e.target
-    layer.setStyle({
-        weight: 3,
-        color: '#3388ff',
-        dashArray: '',
-        fillOpacity: 0.9
-    });
-
-    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-        layer.bringToFront();
-    }
-
-    info.update(layer.feature.properties);
-
-}
-//Define highlight reset
-function resetHighlight(e) {
-    geojson.resetStyle(e.target);
-    info.update()
-}
-
-//Add event listeners for interactivity
-function onEachFeature(feature, layer) {
-    layer.on({
-        mouseover: highlightFeature,
-        mouseout: resetHighlight,
-        click: zoomToFeature
-    });
-}
-
-//Zoom to state
-function zoomToFeature(e) {
-    statesmap.fitBounds(e.target.getBounds());
-}
-
-geojson = L.geoJson(statesData, {
-    style: style,
-    onEachFeature: onEachFeature
-}).addTo(statesmap);
-
-//Add info display panel
-var info = L.control();
-
-info.onAdd = function (map) {
-    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-    this.update();
-    return this._div;
-};
-
-info.update = function (props) {
-    this._div.innerHTML = '<h4>Automation Quotient By State</h4>' +  (props ?
-        '<b>' + props.name + '</b><br />' + 'Quotient: ' + props[industryName].locq.toFixed(4)
-        : 'Hover over a state');
-};
-
-info.addTo(statesmap);
-
-//Add legend
-var legend = L.control({position: 'bottomright'});
-
-legend.onAdd = function (map) {
-
-    var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, .25, .5, .75, 1.0, 1.25, 1.5, 1.75],
-        labels = [];
-
-    // loop through our density intervals and generate a label with a colored square for each interval
-    for (var i = 0; i < grades.length; i++) {
-        div.innerHTML +=
-            '<i style="background:' + getColor(grades[i]+.25) + '"></i> ' +
-            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
-    }
-
-    return div;
-};
-
-legend.addTo(statesmap);
