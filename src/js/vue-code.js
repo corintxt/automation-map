@@ -6,7 +6,7 @@ var para2= "A probability of 1 represents alignment with the average; a probabil
 var industryVue = new Vue({
   el: '#vue',
   data: {
-    message: 'VueJS: on.',
+    message: 'Made with VueJS',
     selected: 'Manufacturing',
     par1: para1,
     par2: para2,
